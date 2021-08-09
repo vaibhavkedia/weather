@@ -58,6 +58,10 @@ button {
   padding: 8px;
 }
 
+#msg-0 {
+  color: darkslateblue;
+}
+
 #msg-1 {
   color: #323455;
 }

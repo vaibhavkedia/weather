@@ -27,4 +27,5 @@ weatherForm.addEventListener("submit", (e) => {
       }
     });
   });
+  search.value = "";
 });

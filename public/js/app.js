@@ -8,7 +8,8 @@ const msg2 = document.querySelector("#msg-2");
 weatherForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  const location = search.value;
+  let location = search.value;
+  search.blur();
 
   msg1.textContent = "Getting your data...";
   msg2.textContent = "";
